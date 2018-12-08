@@ -5,138 +5,131 @@
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
 
+    <!--JQuery-->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+
     <!-- Bootstrap CSS -->
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
     <link rel="stylesheet" type="text/css" media="screen" href="./assets/css/style.css">
     <title>Pete Widders</title>
+
+    <!--Google Fonts-->
+    <link href="https://fonts.googleapis.com/css?family=Crimson+Text|Libre+Baskerville|Noto+Serif+SC|PT+Serif" rel="stylesheet">
   </head>
   
   <body>
 
-    <!--Jumbotron header-->
-    <div class="jumbotron" style="margin-bottom: 0px;">
-      <h1>Pete Widders</h1>
-    </div>
+    <nav class= "navbar navbar-expand-md navbar-dark bg-dark">
 
-    <!--Navbar-->
-    <nav class="navbar navbar-expand-md navbar-light bg-light">
-      <a class="navbar-brand"><img src="./assets/images/Pete Widders-logo.png" class="header-logo"></a>
-      <ul class="navbar-nav">
-        <li class="nav-item">
-          <a class="nav-link" href="#">About</a>
-        </li>
-        <li class="nav-item">
-            <a class="nav-link" href="#">Portfolio</a>
-        </li>
-        <li class="nav-item">
+      <button class="navbar-toggler" data-toggle="collapse" data-target="#collapse_target"> 
+        <span class="navbar-toggler-icon"></span>
+      </button>
+
+      <div class="collapse navbar-collapse" id="collapse_target"> <a class="navbar-brand"><img id="laptop" src="./assets/images/laptop-plain.png"></a>
+
+        <ul class= "navbar-nav">
+          <li class="nav-item">
+            <a class="nav-link" href="#">About</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#">Videography</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#">Writing</a>
+          </li>
+          <li class="nav-item">
             <a class="nav-link" href="#">Contact</a>
-        </li>
-        <li class="nav-item">
-            <a class="nav-link" href="#">Other</a>
-        </li>
-      </ul>
+          </li>
+        </ul>
+
+      </div>
     </nav>
 
+    <div class="container">
+      <div id="welcome">
+        <img src="./assets/images/PW logo.png" alt="Pete Widders" id="logo"><br>
+      </div>
 
-    <section class="about" id="about">
-      <div class="container">
-        <div class="container">
-          <div class="container">
-            <div class="row">
-              <div class="col">
-                1 of 3
-              </div>
-              <div class="col-6">
-                <h1>
-                  About
-                </h1>
-                <p>Lorem ipsum dolor amet venmo eiusmod vexillologist, lumbersexual flexitarian portland small batch. Pug authentic mlkshk consectetur. Prism photo booth ex poutine echo park adipisicing hashtag ennui squid etsy gentrify aesthetic. Beard kogi humblebrag kale chips everyday carry polaroid, fixie cold-pressed offal sustainable ennui la croix glossier. Air plant aute pinterest brooklyn twee +1. Twee humblebrag farm-to-table coloring book jianbing ut pariatur glossier photo booth ex.
-
-                  Gluten-free palo santo aliquip af tattooed kitsch fam before they sold out. Aute qui 8-bit pok pok paleo mumblecore banh mi helvetica YOLO normcore cupidatat in semiotics adaptogen. Copper mug keytar neutra velit. Activated charcoal edison bulb prism gentrify quis ennui in green juice waistcoat meditation. Slow-carb pabst selfies paleo raclette occaecat lumbersexual kale chips mustache asymmetrical magna in. Plaid tousled elit adipisicing pariatur bitters. Narwhal shaman pinterest af hot chicken flexitarian.
-                  
-                  Activated charcoal tacos nisi locavore, kickstarter food truck man bun cloud bread. Chartreuse crucifix kinfolk, slow-carb fashion axe microdosing man bun. Reprehenderit ipsum biodiesel kogi drinking vinegar occupy flannel art party hella affogato flexitarian. Cliche retro ut, ullamco live-edge lo-fi next level chambray pickled eu ugh. Vinyl normcore lyft you probably haven't heard of them raclette adaptogen.
-                </p>
-              </div>
-              <div class="col">
-                3 of 3
-              </div>
-            </div>
+      
+        
+      <div class="row">
+        <div class="col-6">
+          <h1>
+          About
+          </h1>
+          <img src="./assets/images/avatar.jpg" alt="Pete Widders" id="avatar">
+          <p>
+            Hello! Throughout my life, I've been a student, a military soldier and a salesman with a family background 
+            that instilled the virtues of a hard work-ethic, kindness, honor and respect for people of all backgrounds. 
+            Most of my professional career was based in sales and customer-service, however I've recently found a love 
+            for web development and I'm working diligently to complete a full-stack coding bootcamp at the UC Berkeley Extension and 
+            pursue a career in this field! I love building things and problem-solving. I also hold a bachelor's degree in 
+            communications from California State University East Bay. Aside from my professional activities, I'm proud to say I'm recently engaged to 
+            my beautiful fiance Hannah and we have a Boston Terrier/French Bulldog mix dog named Rico. They are both awesome 
+            and occupy what little free time I have these days. 
+          </p>
+  
+          <p> 
+            In the Army, I was a 13M field-artilleryman. I had a chance to see more of the world making stops in Ft. Sill, OK, South Korea
+            and Iraq. I also performed the gun salute for many military funerals throughout the mid-South. I really enjoyed my
+            time in the service in which I learned many life lessons in leadership and grew so much. While attending college,
+            I worked in sales and customer-service for an industrial supply company named Grainger, and then for another called Fastenal. My latest
+            role was doing account manager for a staffing firm named Kforce, which is where I was really introduced to tech.
+            </p>
+              
+            <p>
+            I grew up here in the Bay Area and I love it for it's amazing weather, beautiful beaches and access to wonderful 
+            outdoor activities like snowboarding and hiking. Sports have also always been near to my heart. I'd very much like
+            to see the Oakland A's win another championship in my lifetime. Some of my favorite places include Hawaii (Maui), Lake Tahoe,
+            Lake Shasta and tailgating at the Oakland Coliseum. Music is also near and dear to my heart and I listen to a wide variety
+            of music from Motown to Deftones. Also, I haven't quite let go of my childhood dreams of being a rockstar
+            singer/guitar player. One can still hope!
+          </p>
         </div>
       </div>
-    </section>
+    </div>
 
-    <section class="portfolio" id="portfolio">
-      <div class="container">
-        <h2 class="text-center text-uppercase text-secondary mb-0">Portfolio</h2>
-        <hr class="star-dark mb-5">
-        <div class="row">
-          <div class="col-md-6 col-lg-4">
-            <a class="portfolio-item d-block mx-auto" href="#">
-              <div class="portfolio-item-caption d-flex position-absolute h-100 w-100">
-                <div class="portfolio-item-caption-content my-auto w-100 text-center text-white">
-                  <i class="fas fa-search-plus fa-3x"></i>
-                </div>
-              </div>
-              <img class="img-fluid" src="./assets/images/placeimg_640_480_tech.jpg" alt="Project A">
-            </a>
+    <!-- Portfolio Gallery Grid -->
+    <div class="container">
+        <h1>
+            Projects
+        </h1>
+      <div class="row col-8">
+        <div class="column">
+          <div class="content">
+            <img src="./assets/images/projects/Travelbook.PNG" alt="Travelbook" style="width:100%">
+            <h3>Travelbook</h3>
+            <p>An app for travelers to document their interests and recommendations.</p>
           </div>
-          <div class="col-md-6 col-lg-4">
-            <a class="portfolio-item d-block mx-auto" href="#">
-              <div class="portfolio-item-caption d-flex position-absolute h-100 w-100">
-                <div class="portfolio-item-caption-content my-auto w-100 text-center text-white">
-                  <i class="fas fa-search-plus fa-3x"></i>
-                </div>
-              </div>
-              <img class="img-fluid" src="./assets/images/technics-q-c-640-480-2.jpg" alt="Project B">
-            </a>
-          </div>
-          <div class="col-md-6 col-lg-4">
-            <a class="portfolio-item d-block mx-auto" href="#portfolio-modal-3">
-              <div class="portfolio-item-caption d-flex position-absolute h-100 w-100">
-                <div class="portfolio-item-caption-content my-auto w-100 text-center text-white">
-                  <i class="fas fa-search-plus fa-3x"></i>
-                </div>
-              </div>
-              <img class="img-fluid" src="./assets/images/technics-q-c-640-480-5.jpg" alt="Project C">
-            </a>
-          </div>
-          <div class="col-md-6 col-lg-4">
-            <a class="portfolio-item d-block mx-auto" href="#portfolio-modal-4">
-              <div class="portfolio-item-caption d-flex position-absolute h-100 w-100">
-                <div class="portfolio-item-caption-content my-auto w-100 text-center text-white">
-                  <i class="fas fa-search-plus fa-3x"></i>
-                </div>
-              </div>
-              <img class="img-fluid" src="./assets/images/technics-q-c-640-480-7.jpg" alt="Project D">
-            </a>
-          </div>
-          <div class="col-md-6 col-lg-4">
-            <a class="portfolio-item d-block mx-auto" href="#portfolio-modal-5">
-              <div class="portfolio-item-caption d-flex position-absolute h-100 w-100">
-                <div class="portfolio-item-caption-content my-auto w-100 text-center text-white">
-                  <i class="fas fa-search-plus fa-3x"></i>
-                </div>
-              </div>
-              <img class="img-fluid" src="./assets/images/technics-q-c-640-480-9.jpg" alt="Project E">
-            </a>
-          </div>
-          <div class="col-md-6 col-lg-4">
-            <a class="portfolio-item d-block mx-auto" href="#portfolio-modal-6">
-              <div class="portfolio-item-caption d-flex position-absolute h-100 w-100">
-                <div class="portfolio-item-caption-content my-auto w-100 text-center text-white">
-                  <i class="fas fa-search-plus fa-3x"></i>
-                </div>
-              </div>
-              <img class="img-fluid" src="./assets/images/cat.jpg" alt="cat">
-            </a>
+        </div>
+        <div class="column">
+          <div class="content">
+            <img src="./assets/images/projects/Giftoonopia.PNG" alt="Giftoonopia" style="width:100%">
+            <h3>Giftoonopia</h3>
+            <p>A fun cartoon-themed application using Giphy API.</p>
           </div>
         </div>
       </div>
-    </section>
+      <div class="row col-8"> 
+        <div class="column">
+          <div class="content">
+            <img src="./assets/images/projects/TrainTime.PNG" alt="Train scheduler" style="width:100%">
+            <h3>Train time!</h3>
+            <p>This was an exercise utilizing Firebase to log train times and give realtime departure.</p>
+          </div>
+        </div>
+        <div class="column">
+          <div class="content">
+            <img src="./assets/images/projects/WesternWordScramble.PNG" alt="Western word scramble" style="width:100%">
+            <h3>Western word scramble</h3>
+            <p>This was my first Javascript assignment, which was to build a hangman-style game. I chose a Western-style theme.</p>
+          </div>
+        </div>
+      </div>
+    </div>
 
     <!-- Optional JavaScript -->
     <!-- jQuery first, then Popper.js, then Bootstrap JS -->
-    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49" crossorigin="anonymous"></script>
     <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js" integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy" crossorigin="anonymous"></script>
   </body>
