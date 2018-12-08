@@ -19,7 +19,7 @@ body {
 #logo {
     height: 200px;
     width: 377px;
-    margin-left: 8%;
+    margin-left: 16%;
     opacity: 0.7;
 }
 
@@ -38,9 +38,15 @@ a.nav-link {
     height: 200px;
     border-style: solid;
     border-width: 3px;
-    margin-left: 32%;
-    margin-top: 19px;
-    margin-bottom: 15px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 30px;
+}
+
+p {
+    font-weight: 500;
+    margin-top: 30px;
 }
 
 img {
@@ -60,29 +66,35 @@ h1 {
 }
 
 .container {
-    margin-left: 10%;
+    margin-left: 5%;
     margin-top: 7%;
 }
 
-.col-6 {
+.col-8 {
     background:#7f7f7f;
     background:rgba(255,255,255,0.7);
+}
+
+.card {
+    margin-left: 11%;
 }
 
 .row {
     margin: 8px -16px;
   }
   
-  /* Add padding BETWEEN each column (if you want) */
+  /* Add padding BETWEEN each column */
   .row,
   .row > .column {
     padding: 8px;
   }
   
-  /* Create four equal columns that floats next to each other */
+  /* four columns that float next to each other */
   .column {
     float: left;
     width: 50%;
+    background:#7f7f7f;
+    background:rgba(255,255,255,0.7);
   }
   
   /* Clear floats after rows */ 
