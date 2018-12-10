@@ -20,7 +20,6 @@ body {
     height: 200px;
     width: 377px;
     margin-left: 16%;
-    opacity: 0.7;
 }
 
 .navbar {
@@ -47,6 +46,8 @@ a.nav-link {
 p {
     font-weight: 500;
     margin-top: 30px;
+    font-family: 'Crimson Text', serif;
+    font-size: 20px;
 }
 
 img {
@@ -59,10 +60,19 @@ img {
 }
 
 h1 {
-    font-size: 2.5rem;
     text-align: center;
     font-size: 42px;
+    font-weight: 500
     margin-top: 25px;
+    font-family: 'Noto Serif SC', serif;
+}
+
+.other-headers {
+    font-size: 42px;
+    margin-top: 25px;
+    font-family: 'Noto Serif SC', serif;
+    font-weight: 500;
+    text-align: left;
 }
 
 .container {
@@ -71,8 +81,12 @@ h1 {
 }
 
 .col-8 {
-    background:#7f7f7f;
-    background:rgba(255,255,255,0.7);
+    background:#7f7f7f; 
+    background:rgba(255,255,255,0.9);
+}
+
+.content {
+    opacity: 0.9;
 }
 
 .card {
@@ -147,6 +161,11 @@ h1 {
 
   .footer-social-icons ul li a i{
       line-height: 50px;
+  }
+
+  .container-fluid {
+    background:#7f7f7f; 
+    background:rgba(255,255,255,0.9);
   }
   
   /* Responsive layout - makes a two column-layout instead of four columns */
