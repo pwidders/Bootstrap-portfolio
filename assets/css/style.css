@@ -12,14 +12,14 @@ body {
 }
 
 #laptop {
+    margin-top: 20px;
     height: 50px;
     width: 75px;
 }
 
-#logo {
-    height: 200px;
-    width: 377px;
-    margin-left: 16%;
+#logo-PW {
+    height: 250px;
+    width: 400px;
 }
 
 .navbar {
@@ -28,8 +28,10 @@ body {
 
 a.nav-link {
     font-weight: 500;
-    font-size: 20px;
+    font-size: 24px;
     color: white;
+    font-family: 'PT Serif', serif;
+    text-align: center;
 }
 
 #avatar {
@@ -38,8 +40,6 @@ a.nav-link {
     border-style: solid;
     border-width: 3px;
     display: block;
-    margin-left: auto;
-    margin-right: auto;
     margin-top: 30px;
 }
 
@@ -50,19 +50,14 @@ p {
     font-size: 20px;
 }
 
-img {
-    opacity: 0.7;
-}
-
 #welcome {
     margin-top: 60px;
     margin-bottom: 50px;
 }
 
 h1 {
-    text-align: center;
     font-size: 42px;
-    font-weight: 500
+    font-weight: 500;
     margin-top: 25px;
     font-family: 'Noto Serif SC', serif;
 }
@@ -76,14 +71,15 @@ h1 {
 }
 
 .container {
-    margin-left: 5%;
-    margin-top: 7%;
+    background:#7f7f7f; 
+    background:rgba(255,255,255,0.85);
+    margin-bottom: 20px;
 }
 
-.col-8 {
+.container-fluid {
     background:#7f7f7f; 
     background:rgba(255,255,255,0.9);
-}
+  }
 
 .content {
     opacity: 0.9;
@@ -95,91 +91,116 @@ h1 {
 
 .row {
     margin: 8px -16px;
-  }
+}
   
-  /* Add padding BETWEEN each column */
-  .row,
-  .row > .column {
+/* Add padding BETWEEN each column */
+.row,
+.row > .column {
     padding: 8px;
-  }
+}
   
-  /* four columns that float next to each other */
-  .column {
+/* four columns that float next to each other */
+.column {
     float: left;
     width: 50%;
     background:#7f7f7f;
     background:rgba(255,255,255,0.7);
-  }
+}
   
-  /* Clear floats after rows */ 
-  .row:after {
+/* Clear floats after rows */ 
+.row:after {
     content: "";
     display: table;
     clear: both;
-  }
+}
   
-  /* Content */
-  .content {
+/* Content */
+.content {
     background-color: white;
     padding: 10px;
-  }
+}
 
-  /* Footer */
-  .footer-main-div {
-      width: 100%;
-      height: auto;
-      margin: auto;
-      background: #272727;
-      padding: 20px 0px;
-  }
+/* Footer */
+.footer-main-div {
+    width: 100%;
+    height: auto;
+    margin: auto;
+    background: #272727;
+    padding: 20px 0px;
+}
+  
+.footer-social-icons {
+    width: 100%;
+    height: auto;
+    margin: auto;
+}
+  
+.footer-social-icons ul {
+    margin: 0px;
+    padding: 0px;
+    text-align: center;
+}
+  
+.footer-social-icons ul li {
+    display: inline-block;
+    width: 50px;
+    height: 50px;
+    margin: 0px 10px;
+    border-radius: 100%;
+    background: #32cd32;
+}
+  
+.footer-social-icons ul li a {
+    color: #272727;
+    font-size: 25px;
+    display: block;
+}
+  
+.footer-social-icons ul li a i {
+    line-height: 50px;
+}
 
-  .footer-social-icons {
-      width: 100%;
-      height: auto;
-      margin: auto;
-  }
+.footer-social-icons ul li a i {
+    line-height: 50px;
+}
 
-  .footer-social-icons ul{
-      margin: 0px;
-      padding: 0px;
-      text-align: center;
-  }
+.footer-menu-one {
+    width: 100%;
+    height: auto;
+    margin: auto;
+}
 
-  .footer-social-icons li{
-      display: inline-block;
-      width: 50px;
-      height: 50px;
-      margin: 10px 10px;
-      border-radius: 100%;
-      background: #32cd32;
-  }
+.footer-menu-one ul {
+    margin: 0px;
+    padding: 0px;
+    text-align: center;
+}
 
-  .footer-social-icons ul li a{
-      color: #272727;
-      font-size: 25px;
-  }
+.footer-menu-one ul li {
+    display: inline-block;
+    margin: 0px 20px;
+}
 
-  .footer-social-icons ul li a i{
-      line-height: 50px;
-  }
-
-  .container-fluid {
-    background:#7f7f7f; 
-    background:rgba(255,255,255,0.9);
-  }
+.footer-menu-one ul li a {
+    font-family: 'PT Serif', serif;
+    font-size: 20px;
+    font-weight: 500;
+    color: #fff;
+    text-transform: uppercase;
+}
   
   /* Responsive layout - makes a two column-layout instead of four columns */
-  @media screen and (max-width: 900px) {
+@media screen and (max-width: 900px) {
     .column {
       width: 50%;
     }
-  }
+}
   
   /* Responsive layout - makes the two columns stack on top of each other instead of next to each other */
-  @media screen and (max-width: 600px) {
+@media screen and (max-width: 600px) {
     .column {
       width: 100%;
     }
-  }
+}
 
 
