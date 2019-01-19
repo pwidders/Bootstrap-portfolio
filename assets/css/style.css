@@ -128,17 +128,37 @@ div.topBotomBordersOut a:hover:before, div.topBotomBordersOut a:hover:after
     transform: translateY(0px);
 }
 
+/* Main content */
+
 body {
     background: url("../images/background-beverage-breakfast-414645.jpg")no-repeat center center fixed;
     background-size: cover;
     position: relative
 }
 
+.container {
+    background:#7f7f7f; 
+    background:rgba(255,255,255,0.85);
+    margin-bottom: 50px;
+    border-radius: 25px;
+    margin-top: 40px;
+    border: solid black 2px;
+}
+
+.container-fluid {
+    background:#7f7f7f; 
+    background:rgba(255,255,255,0.9);
+    border-radius: 25px;
+    padding-bottom: 15px;
+    border-style: inset;
+    border-width: 3px;
+}
+
 #logo-PW {
     height: 250px;
     width: 400px;
     border-radius: 20px;
-    margin-top:25px;
+    margin-top:55px;
 }
 
 #avatar {
@@ -148,19 +168,13 @@ body {
     border-width: 3px;
     display: block;
     margin-top: 30px;
-    margin-bottom: 30px;
+    margin-bottom: 60px;
 }
 
 p {
     font-weight: 500;
-    margin-top: 30px;
     font-family: 'Crimson Text', serif;
     font-size: 20px;
-}
-
-#welcome {
-    margin-top: 60px;
-    margin-bottom: 50px;
 }
 
 h1 {
@@ -177,19 +191,6 @@ h1 {
     font-weight: 500;
     text-align: left;
 }
-
-.container {
-    background:#7f7f7f; 
-    background:rgba(255,255,255,0.85);
-    margin-bottom: 20px;
-    border-radius: 25px;
-}
-
-.container-fluid {
-    background:#7f7f7f; 
-    background:rgba(255,255,255,0.9);
-    border-radius: 25px;
-  }
 
 .content {
     opacity: 0.9;
