@@ -46,7 +46,7 @@
         </h1> -->
         <center><img src="./assets/images/avatar.jpg" alt="Pete Widders" id="avatar"></center>
         <p>
-          <center><i> A customer-centric professional skilled in communication that's driven by my passion for technology, engineering and providing solutions in real-world applications.</i></center>
+          <center><h5><i> A customer-centric professional skilled in communication that's driven by my passion for technology, engineering and providing solutions in real-world applications. </i></h5></center>
         </p>
         <br>
         <p>
@@ -63,22 +63,25 @@
       </div>
 
       <br>
-      <hr>
       <br>
 
       <!-- Portfolio Gallery Grid -->
       <div class="container-fluid">
         <h1 class="other-headers">Code Projects</h1>
         <br>
-        A collection of coding projects spanning both front-end and back-end technologies.
+        <p>A collection of coding projects spanning both front-end and back-end technologies. Projects are continually updated as I become more adept.</p>
+        <hr>
+        <h4>Front-end applications</h4>
+        <p>Technologies used include HTML, CSS, Javascript and Firebase storage</p>
+
         <div class="row">
           <div class="column">
             <div class="content">
               <img src="./assets/images/projects/Travelbook.PNG" alt="Travelbook" style="width:100%">
               <h4>Travelbook</h4>
               <p class="card-content">An app for travelers to document their interests and recommendations. This was my first experience working with a group tasked to 'build something awesome.' We designed the app to be a social media type personal profile app that allowed users to network with friends and share their travels. Technologies used were HTML, CSS, Javascript, Firebase, Yelp API and Google developer.</p>
-              <button type="button" class="btn btn-dark">Github Link</button>
-              <button type="button" class="btn btn-dark">Deployed</button>
+              <a href="https://github.com/pwidders/Travelbook" class="btn btn-dark" target="_blank">Github</a>
+              <a href="https://jacksonsabol.github.io/Project_One/" class="btn btn-dark" target="_blank">Deployed</a>
             </div>
           </div>
           <div class="column">
@@ -86,8 +89,8 @@
               <img src="./assets/images/projects/Giftoonopia.PNG" alt="Giftoonopia" style="width:100%">
               <h4>Giftoonopia</h4>
               <p class="card-content">A fun cartoon-themed application using Giphy API. This was an assignment to get practice using the ajax method to query API's. The interface allows users to click any of the prearranged cartoons, or enter new cartoons of their choosing to pull up a slate of randomly generated gifs that match that theme. Technologies used were HTML, CSS and Javascript/jQuery with Giphy API.</p>
-              <button type="button" class="btn btn-dark">Github Link</button>
-              <button type="button" class="btn btn-dark">Deployed</button>
+              <a href="https://github.com/pwidders/Giftoonopia" class="btn btn-dark" target="_blank">Github</a>
+              <a href="https://pwidders.github.io/Giftoonopia/" class="btn btn-dark" target="_blank">Deployed</a>
             </div>
           </div>
         </div>
@@ -98,36 +101,46 @@
               <img src="./assets/images/projects/TrainTime.PNG" alt="Train scheduler" style="width:100%">
               <h4>Train time!</h4>
               <p class="card-content">This was an exercise utilizing Firebase to log train times and give realtime departure times. The interface allows users/admins to log train data that gets updated in real time to the page. Technologies used were HTML, CSS, Javascript, Momento.js, Firebase.</p>
-              <button type="button" class="btn btn-dark">Github Link</button>
-              <button type="button" class="btn btn-dark">Deployed</button>
+              <a href="https://github.com/pwidders/train-time" class="btn btn-dark" target="_blank">Github</a>
+              <a href="https://pwidders.github.io/train-time/" class="btn btn-dark" target="_blank">Deployed</a>
             </div>
           </div>
           <div class="column">
-            <div class="content">
-              <img src="./assets/images/projects/WesternWordScramble.PNG" alt="Western word scramble" style="width:100%">
-              <h4>Western word scramble</h4>
-              <p class="card-content">This was my first Javascript assignment, which was to build a hangman-style game. I chose a Western-style theme. It was built using HTML, CSS and vanilla Javascript. The interface allows the user to click a start game button, which then generates underscores that represent the hidden word to guess.</p>
-              <button type="button" class="btn btn-dark">Github Link</button>
-              <button type="button" class="btn btn-dark">Deployed</button>
+              <div class="content">
+                <img src="./assets/images/projects/Crystals.PNG" alt="Crystals game" style="width:100%">
+                <h4>Crystals Collector</h4>
+                <p class="card-content">This was a game with an object of clicking on one of four buttons that would return an assigned hidden value, which then got added to your total score. The point of the game is to try and match your score with the random number chosen at the start. If you go over, you lose. If you hit it, you win! This app was built with HTML, CSS and Javascript with a focus on Jquery.</p>
+                <a href="https://github.com/pwidders/Crystals-game" class="btn btn-dark" target="_blank">Github</a>
+                <a href="https://pwidders.github.io/Crystals-game/" class="btn btn-dark" target="_blank">Deployed</a>
+              </div>
             </div>
-          </div>
         </div>
         <br>
-        <div class="row"> 
+        <hr>
+        <br>
+        <h5>Node applications</h5>
+        <p>Technologies used include Node.js + modules, Javascript, Handlebars, MySQL and MongoDB</p>
+        <div class="row">
           <div class="column">
             <div class="content">
-              <img src="./assets/images/projects/Crystals.PNG" alt="Crystals game" style="width:100%">
-              <h4>Crystals Collector</h4>
-              <p class="card-content">This was a game with an object of clicking on one of four buttons that would return an assigned hidden value, which then got added to your total score. The point of the game is to try and match your score with the random number chosen at the start. If you go over, you lose. If you hit it, you win! This app was built with HTML, CSS and Javascript with a focus on Jquery.</p>
-              <button type="button" class="btn btn-dark">Github Link</button>
-              <button type="button" class="btn btn-dark">Deployed</button>
+              <img src="./assets/images/projects/liri-node.gif" alt="Liri Node App" style="width:100%">
+              <h4>Liri Node App</h4>
+              <p class="card-content">An app that utilizes Spotify, OMDB and Bands in town to perform search queries. Functions include 'Spotify It' - search Spotify's API to find information by song, 'Movie It' - search OMDB database by movie title and 'Concert It' - search Bands in Town database to see if an artist is on tour. Technologies include Node.js with Inquirer, Moment and request packages, as well as Javascript.</p>
+              <a href="https://github.com/pwidders/liri-node-app" class="btn btn-dark" target="_blank">Github</a>
+            </div>
+          </div>
+          <div class="column">
+            <div class="content">
+              <img src="./assets/images/projects/video-mockbuster.gif" alt="Mockbuster" style="width:100%">
+              <h4>Giftoonopia</h4>
+              <p class="card-content">A mock video rental storefront and inventory management app inspired by the great 'Blockbuster Video' of my generation. This app takes you through the 'new releases' wall circa summer of 1998- when Blockbuster reigned supreme with top hits like "Armageddon" and "The Truman Show." Technologies include Node.js with Inquirer, Javascript and MySQL database.</p>
+              <a href="https://github.com/pwidders/Mockbuster-video" class="btn btn-dark" target="_blank">Github</a>
             </div>
           </div>
         </div>
       </div>
-      
+
       <br>
-      <hr>
       <br>
       
       <div class="container-fluid">
@@ -148,7 +161,6 @@
       </div>
 
       <br>
-      <hr>
       <br>
 
       <a name="contact"></a>
@@ -257,17 +269,10 @@
       </div>
     </div>
 
-    <script>
-        function myFunction() {
-          var x = document.getElementById("myTopnav");
-          if (x.className === "topnav") {
-            x.className += " responsive";
-          } else {
-            x.className = "topnav";
-          }
-        }
-    </script>
-
+    <!--JS-->
+    <script src="./assets/JS/main.js"></script>
+    <!--Anime JS-->
+    <script src= "https://cdnjs.cloudflare.com/ajax/libs/animejs/2.2.0/anime.js"></script>
     <!--JQuery-->
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
   

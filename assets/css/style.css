@@ -138,31 +138,31 @@ body {
 
 .container {
     background:#7f7f7f; 
-    background:rgba(255,255,255,0.85);
+    background:rgba(255,255,255,0.25);
     margin-bottom: 50px;
-    border-radius: 25px;
+    border-radius: 10px;
     margin-top: 40px;
-    border: solid black 2px;
+    
+    
 }
 
 .container-fluid {
-    background:#7f7f7f; 
-    background:rgba(255,255,255,0.9);
-    border-radius: 25px;
+    background: rgb(244,244,244);
+    border-radius: 10px;
     padding-bottom: 15px;
-    border-style: inset;
     border-width: 3px;
+    border: black solid 1px;
 }
 
 #logo-PW {
     height: 250px;
     width: 400px;
-    border-radius: 20px;
+    border-radius: 5px;
     margin-top:55px;
 }
 
 #avatar {
-    border-radius: 50%;
+    border-radius: 5%;
     height: 200px;
     border-style: solid;
     border-width: 3px;
@@ -174,7 +174,7 @@ body {
 p {
     font-weight: 500;
     font-family: 'Crimson Text', serif;
-    font-size: 20px;
+    font-size: 22px;
 }
 
 h1 {
