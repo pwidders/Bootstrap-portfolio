@@ -4,6 +4,10 @@ font-family: 'Noto Serif SC', serif;
 font-family: 'PT Serif', serif;
 font-family: 'Libre Baskerville', serif; */
 
+html {
+    scroll-behavior: smooth;
+}
+
 /* Nav bar */
 div.nav-block {
     margin: 0 auto;
@@ -137,8 +141,8 @@ body {
 }
 
 .container {
-    background:#7f7f7f; 
-    background:rgba(255,255,255,0.25);
+    /* background:#7f7f7f; 
+    background:rgba(255,255,255,0.25); */
     margin-bottom: 50px;
     border-radius: 10px;
     margin-top: 40px;
@@ -192,10 +196,6 @@ h1 {
     text-align: left;
 }
 
-.content {
-    opacity: 0.9;
-}
-
 .card {
     margin-left: 11%;
 }
@@ -218,17 +218,19 @@ h1 {
     background:rgba(255,255,255,0.7);
 }
   
-/* Clear floats after rows */ 
-.row:after {
-    content: "";
-    display: table;
-    clear: both;
-}
-  
-/* Content */
+/* Projects card content */
 .content {
     background-color: white;
     padding: 10px;
+    opacity: 0.65;
+    border-radius: 5px;
+}
+
+.content:hover {
+    opacity: 1;
+    -webkit-transform: scale(1.1);
+    -ms-transform: scale(1.1);
+    transform: scale(1.1);
 }
 
 /* Footer */
@@ -238,37 +240,6 @@ h1 {
     margin: auto;
     background: #272727;
     padding: 20px 0px;
-}
-  
-.footer-social-icons {
-    width: 100%;
-    height: auto;
-    margin: auto;
-}
-  
-.footer-social-icons ul {
-    margin: 0px;
-    padding: 0px;
-    text-align: center;
-}
-  
-.footer-social-icons ul li {
-    display: inline-block;
-    width: 50px;
-    height: 50px;
-    margin: 0px 10px;
-    border-radius: 100%;
-    background: #32cd32;
-}
-  
-.footer-social-icons ul li a {
-    color: #272727;
-    font-size: 25px;
-    display: block;
-}
-
-.footer-social-icons ul li a i {
-    line-height: 50px;
 }
 
 .footer-menu-one {
